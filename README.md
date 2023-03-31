@@ -60,7 +60,7 @@ If you are using macOS, you can use the Microsoft Remote Desktop App to access t
 
 - Open the Microsoft Remote Desktop App on your macOS.
 - Paste the IP address that you copied from Step 2 into the "PC name" field.
-- Click on "Connect" to establish a remote desktop connection to the VM.
+- Click on "Add" to establish a remote desktop connection to the VM.
 - Enter your login credentials for the VM when prompted.
 Once you have successfully logged in to the VM, you can continue with the next steps of your installation process.
 </p>
