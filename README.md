@@ -36,7 +36,7 @@ Welcome to my osTicket prerequisites and installation Lab 3. I will guide you th
 <p>
 <img src="https://user-images.githubusercontent.com/95878059/229222998-2a42ecea-4111-415a-8ef5-fac718b95a33.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p><p>
-To provide further context, VM-OsTicket is the name of the Virtual Machine (VM) that you have created in Windows 10 using Microsoft Azure. It will be used to install and run osTicket, the open-source ticketing system, on your machine.
+To provide further context, VM-OsTicket is the name of the Virtual Machine (VM) that i have created in Windows 10 using Microsoft Azure. It will be used to install and run osTicket, the open-source ticketing system, on your machine.
 </p>
 <br />
 <p>
