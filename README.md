@@ -36,14 +36,19 @@ This is the tutorial for OsTicket-Prerequisites and Installation Lab 3 .<br />
 <p>
 <img src="https://user-images.githubusercontent.com/95878059/229222998-2a42ecea-4111-415a-8ef5-fac718b95a33.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p><p>
-This is VM-OsTicke that i have created in the Windows 10 Virtual Machine in Microsoft Azure
+To provide further context, VM-OsTicket is the name of the Virtual Machine (VM) that you have created in Windows 10 using Microsoft Azure. It will be used to install and run osTicket, the open-source ticketing system, on your machine. Please ensure that you have followed all the necessary steps to set up the VM and access it remotely before proceeding with the installation.
 </p>
 <br />
 <p>
 <img src="https://user-images.githubusercontent.com/95878059/229243869-bba4da25-8bd3-447d-86a1-80ccb63c5d18.jpg"/>
 </p>
 <p>
-Go to the VM-OsTicket overview and copy the ip Address.
+To access your VM, you will need to copy its IP address. Please follow these steps:
+
+- Go to the VM-OsTicket overview in Microsoft Azure.
+- Locate the IP address of the VM.
+- Copy the IP address to your clipboard.
+- You will need the IP address to access the VM using the Microsoft Remote Desktop App or any other remote desktop client.
 </p>
 <br />
 
@@ -51,7 +56,13 @@ Go to the VM-OsTicket overview and copy the ip Address.
 <img src="https://user-images.githubusercontent.com/95878059/229248114-e1f4ea9e-1554-46e5-b5fc-6aeb73be9541.jpg" height="80%" width="80%" alt="Disk Sanitization Steps" />
 </p>
 <p>
-Am on MacOS, I'll be using the Microsoft Remote Desktop App to access the virtual Mechine(Vm) and paste the ip address you copies from step two in the PC name.
+If you are using macOS, you can use the Microsoft Remote Desktop App to access the Virtual Machine (VM). Please follow these steps:
+
+- Open the Microsoft Remote Desktop App on your macOS.
+- Paste the IP address that you copied from Step 2 into the "PC name" field.
+- Click on "Connect" to establish a remote desktop connection to the VM.
+- Enter your login credentials for the VM when prompted.
+Once you have successfully logged in to the VM, you can continue with the next steps of your installation process.
 </p>
 <br />
 
@@ -59,7 +70,17 @@ Am on MacOS, I'll be using the Microsoft Remote Desktop App to access the virtua
 <img src="https://user-images.githubusercontent.com/95878059/229244555-a4f8f6fd-c785-4572-b1cd-a08a031056ec.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to the control panel, click the Turn windowns feautures on or off and check the internel information system and check CGI.
+To enable CGI in Windows 10, please follow these steps:
+
+- Go to the Control Panel on your Windows 10 machine.
+- Click on "Programs and Features."
+- Click on "Turn Windows features on or off."
+- Locate "Internet Information Services" and expand the node.
+- Locate "World Wide Web Services" and expand the node.
+- Locate "Application Development Features" and expand the node.
+- Check the box next to "CGI."
+- Click "OK" to save the changes.
+- CGI is now enabled on your Windows 10 machine and you can proceed with installing and configuring osTicket..
 </p>
 <br />
 
@@ -83,7 +104,7 @@ download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 <img src="https://user-images.githubusercontent.com/95878059/229246060-2ee10216-a2f0-4d36-950c-76cdb02a2224.PNG"/>
 </p>
 <p>
-Install osTicket v1.15.8
+Install osTicket v1.15.8. Copy the UPLOAD folder and paste it into C - inetpub - wwwroot, then restart Internet Information Services Manager. IIS Manager can be found in the start menu.
 
 </p>
 <br />
@@ -92,7 +113,8 @@ Install osTicket v1.15.8
 <img src="https://user-images.githubusercontent.com/95878059/229246189-cb4bdf55-e468-47e6-b318-ebafd030a83b.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Copy the UPLOAD folder and paste it into C - inetpub - wwwroot, then restart Internet Information Services Manager. IIS Manager can be found in the start menu.
+Extract and copy “upload” folder to c:\inetpub\wwwroot Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+
 </p>
 <br />
 
@@ -100,8 +122,14 @@ Copy the UPLOAD folder and paste it into C - inetpub - wwwroot, then restart Int
 <img src="https://user-images.githubusercontent.com/95878059/229246488-dac3303e-6c4b-484a-9806-3b5b3a958d22.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to sites -> Default -> osTicket
-On the right, click “Browse *:80”
+To access the osTicket installation page, please follow these steps:
+
+- Open Internet Information Services (IIS) Manager.
+- Locate and click on "Sites" in the left-hand pane.
+- Click on "Default Web Site."
+- Locate the folder for your osTicket installation.
+- On the Right-click on the folder and select "Browse *:80" from the context menu.
+- You will be redirected to the osTicket installation page in your web browser. From there, you can proceed with setting up osTicket as per the installation instructions.
 
 </p>
 <br />
@@ -110,8 +138,14 @@ On the right, click “Browse *:80”
 <img src="https://user-images.githubusercontent.com/95878059/229246594-e503be3a-143e-455f-a0f6-e8b7563da5c3.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open osTicket in your web browser and start filling out the basic installation.
-</p>
+To begin the basic installation of osTicket, please follow these steps:
+
+- Open your web browser.
+- Enter the IP address or domain name of your osTicket installation in the address bar.
+- Press "Enter" to navigate to the osTicket installation page.
+- Fill out the basic installation form with the required information, including your database details and administrator account credentials.
+- Click "Install" to begin the installation process.
+- Once the installation is complete, you will be able to access the osTicket helpdesk and start providing support to your users.</p>
 <br />
 
 <p>
@@ -129,22 +163,20 @@ Create a database called “osTicket”
 <img src="https://user-images.githubusercontent.com/95878059/229247629-ba898b58-739e-48b0-b754-700d868b50f9.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-create a password for root your going to need to enter the password in the basic installation.
-</p>
+To proceed with the basic installation, you will need to create a password for the root user. Please ensure that your password meets the complexity requirements and security best practices.</p>
 <br />
 
 <p>
 <img src="https://user-images.githubusercontent.com/95878059/229247247-001508b4-24cc-4373-b71e-fb819cdefdb3.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Start creating a database called osticket.
-</p>
+To begin setting up osTicket, you will need to create a database. Please follow the instructions above to create a database called "osticket".</p>
 <br />
 
 <p>
 <img src="https://user-images.githubusercontent.com/95878059/229247783-2567743b-dbee-4a9a-9af3-394d332fefcd.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Login to the osTicket Admin Panel
+To access the osTicket Admin Panel, please enter your credentials and log in. From there, you will be able to manage and customize your osTicket installation.
 </p>
 <br />
