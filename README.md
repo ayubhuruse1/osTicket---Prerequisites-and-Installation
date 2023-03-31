@@ -47,7 +47,7 @@ Go to the VM-OsTicket overview and copy the ip Address.
 <br />
 
 <p>
-<img src="https://user-images.githubusercontent.com/95878059/229244257-54df8fb7-a539-421e-96bf-34a7f4673fea.PNG"/>
+<img src="https://user-images.githubusercontent.com/95878059/229248114-e1f4ea9e-1554-46e5-b5fc-6aeb73be9541.jpg" height="80%" width="80%" alt="Disk Sanitization Steps" />
 </p>
 <p>
 Am on MacOS, I'll be using the Microsoft Remote Desktop App to access the virtual Mechine(Vm) and paste the ip address you copies from step two in the PC name.
@@ -55,7 +55,7 @@ Am on MacOS, I'll be using the Microsoft Remote Desktop App to access the virtua
 <br />
 
 <p>
-<img src="https://user-images.githubusercontent.com/95878059/229244555-a4f8f6fd-c785-4572-b1cd-a08a031056ec.PNG"/>
+<img src="https://user-images.githubusercontent.com/95878059/229244555-a4f8f6fd-c785-4572-b1cd-a08a031056ec.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Go to the control panel, click the Turn windowns feautures on or off and check the internel information system and check CGI.
@@ -63,7 +63,7 @@ Go to the control panel, click the Turn windowns feautures on or off and check t
 <br />
 
 <p>
-<img src="https://user-images.githubusercontent.com/95878059/229245490-29fcbe90-0319-4660-b0eb-00e619257d23.PNG"/>
+<img src="https://user-images.githubusercontent.com/95878059/229245490-29fcbe90-0319-4660-b0eb-00e619257d23.PNG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 download and install the Rewrite Module (rewrite_amd64_en-US.msi)
