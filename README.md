@@ -18,18 +18,19 @@ This is the tutorial for OsTicket-Prerequisites and Installation Lab 3 .<br />
 
 <h2>List of Prerequisites</h2>
 
-- Create a Resource Group then use that resource group to create a new Virtual mechine (VM) in Microsoft Azure with a regeion of your choice and make a virtual mechine (VM) with 2-4 virtual CPU.
--open Remote Desktop to access the virtual mechine(VM)
-- Install / Enable IIS in Windows WITH CGI
-- download and install PHP Manager for IIS 
-- download and install the Rewrite Module (rewrite_amd64_en-US.msi)
-- download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
-- download and install VC_redist.x86.exe.
-- download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
-- download and install HeidiSQL.
-- Continue Setting up osticket in the browser
-- Congratulations, hopefully it is installed with no errors!
-- Login to the osTicket system as Admin Panel
+- Create a Resource Group in Microsoft Azure with a region of your choice.
+- Use the Resource Group to create a new Virtual Machine (VM) with 2-4 virtual CPUs in Microsoft Azure.
+- Open Remote Desktop to access the newly created Virtual Machine (VM).
+- Install and enable Internet Information Services (IIS) in Windows with CGI.
+- Download and install PHP Manager for IIS.
+- Download and install the Rewrite Module (rewrite_amd64_en-US.msi).
+- Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP.
+- Download and install VC_redist.x86.exe.
+- Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi).
+- Download and install HeidiSQL.
+- Continue setting up osTicket in the browser.
+- Congratulations! Hopefully, osTicket is installed with no errors.
+- Log in to the osTicket system as Admin Panel.
 
 <h2>Installation Steps</h2>
 <p>
