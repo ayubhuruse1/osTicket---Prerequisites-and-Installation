@@ -3,7 +3,7 @@
 </p>
 
 <h1>OsTicket-Prerequisites and Installation</h1>
-This is the tutorial for OsTicket-Prerequisites and Installation Lab 3 .<br />
+Welcome to my osTicket prerequisites and installation Lab 3. I will guide you through the process of setting up the necessary prerequisites and installing osTicket on a Windows 10 virtual machine in Microsoft Azure.<br />
 
 
 <h2>Environments and Technologies Used</h2>
